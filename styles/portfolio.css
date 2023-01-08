@@ -110,3 +110,24 @@
     padding-left: 20px;
     margin-left: 65px;
 }
+#bonus{
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    color: rgb(131, 30, 45);
+    font-size: 30px;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom,rgb(230, 157, 169),rgba(139, 8, 139, 0.638));
+    border-style: dotted;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: mediumvioletred;
+    margin: 50px 100px 50px 100px;
+    padding: 20px 15px 5px 20px;
+}
+#img2{
+    height: 200px;
+    width: 20%;
+    border-radius: 20%;
+    padding-bottom: 20px;
+}
