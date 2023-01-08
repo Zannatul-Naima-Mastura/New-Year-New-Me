@@ -1,13 +1,14 @@
 *{margin: 0;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+ /* (*) is a thing that implements style ini the whole website.  */
 .section-1{
     padding-top: 300px;
     text-align: right;
     margin-left: 50%;
     margin-right: 15%;
-
 }
+ /* content,padding,border and margins are included in box model.  */
 #button-1{
     border:1px solid rgb(244, 94, 7);
     border-radius: 5px;
@@ -48,6 +49,7 @@
     font-weight:600;
     font-size: 22px;
 }
+ /* linearGradient implements two color's shade on sth. */
 #section-6{
     background-image:linear-gradient(to right,rgba(229, 77, 7, 0.953),rgba(234, 218, 218, 0)), url(../images/watch.png);
     background-repeat: no-repeat;
